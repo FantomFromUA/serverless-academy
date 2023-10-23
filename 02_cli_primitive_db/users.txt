@@ -1,0 +1,4 @@
+{"name":"Er","gender":"female"}
+{"name":"Er","gender":"female"}
+{"name":"Peters","gender":"male","age":34}
+{"name":"Norma","gender":"female","age":19}
