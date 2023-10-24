@@ -13,14 +13,14 @@ program
     .command('send-message')
     .description('Send message to Telegram Bot')
     .argument('<message>')
-    .action((str, options) => {
+    .action((str) => {
         sendMessage(str);
     });
 
 program.command('send-photo')
     .description('Send photo to Telegram Bot. Just drag and drop it consile after p-flag.')
     .argument('<path>')
-    .action((str, options) => {
+    .action((str) => {
         sendPhoto(str);
     });
 
