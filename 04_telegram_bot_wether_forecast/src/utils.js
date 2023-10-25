@@ -11,7 +11,7 @@ export async function getForcast(city, everySixHours = false){
         list = list.filter((item, index) => index % 2 === 0);
     }
 
-    return list.slice(0, 5);
+    return everySixHours? list.slice(0, 5) : list.slice(0, 10);
 }
 
 export function createForcastMessage(forecast){
