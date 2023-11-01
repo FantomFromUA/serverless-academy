@@ -42,7 +42,7 @@ function groupVacations(vacations){
             endDate: vacations[i].endDate
         });
     }
-
+    console.log(groupedVacations);
     return groupedVacations;
 }
 
